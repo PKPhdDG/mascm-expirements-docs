@@ -1,0 +1,6 @@
+MultithreadedApplicationSourceCodeModel(threads=[t0, t1, t2], time_units=[[t0], [t1, t2], [t0]], resources=[{r1}], operations=[o0,1, o0,2, o0,3, o0,4, o0,5, o0,6, o0,7, o0,8, o0,9, o1,1, o1,2, o1,3, o1,4, o1,5, o1,6, o1,7, o1,8, o1,9, o1,10, o2,1, o2,2, o2,3, o2,4, o2,5, o2,6, o2,7, o2,8, o2,9, o2,10], mutexes=[(m, PMN), (n, PMN)], edges=[(o0,1, o0,2), (o0,2, o0,3), (r1, o0,3), (o0,3, o0,4), (o0,4, o0,5), (o0,5, o0,6), (o0,6, o0,7), (o0,7, o0,8), (r1, o0,8), (o0,8, o0,9), (q2, o1,1), (o1,1, o1,2), (q1, o1,2), (o1,2, o1,3), (o1,3, o1,4), (o1,4, o1,8), (o1,4, o1,5), (o1,5, o1,6), (o1,6, r1), (o1,6, o1,7), (o1,7, o1,4), (o1,7, o1,8), (o1,8, q1), (o1,8, o1,9), (o1,9, q2), (o1,9, o1,10), (q1, o2,1), (o2,1, o2,2), (q2, o2,2), (o2,2, o2,3), (o2,3, o2,4), (o2,4, o2,8), (o2,4, o2,5), (o2,5, o2,6), (o2,6, r1), (o2,6, o2,7), (o2,7, o2,4), (o2,7, o2,8), (o2,8, q2), (o2,8, o2,9), (o2,9, q1), (o2,9, o2,10)], relations=(forward=[], backward=[], symmetric=[]))
+============================================================
+Resource usage:
+	Current memory usage is 1.45MB
+	Peak was 1.63MB
+	Time: 0.19s

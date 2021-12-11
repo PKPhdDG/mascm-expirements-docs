@@ -1,0 +1,24 @@
+Race conditions:
+Race condition was reported 0 times.
+============================================================
+Deadlocks:
+	Deadlock detected involving a set of locks: {q2, q1}
+		Deadlock cause: Pair of mutexes are mutually exclusive
+	Locking operations can be found in:
+		tests/example_c_sources/deadlock1.c:8:5 using mutex variable n of type PTHREAD_MUTEX_DEFAULT
+		tests/example_c_sources/deadlock1.c:9:5 using mutex variable m of type PTHREAD_MUTEX_DEFAULT
+		tests/example_c_sources/deadlock1.c:20:5 using mutex variable m of type PTHREAD_MUTEX_DEFAULT
+		tests/example_c_sources/deadlock1.c:21:5 using mutex variable n of type PTHREAD_MUTEX_DEFAULT
+
+Deadlock was reported 1 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+Order violation was reported 0 times.
+============================================================
+Resource usage:
+	Current memory usage is 1.46MB
+	Peak was 1.63MB
+	Time: 0.21s
