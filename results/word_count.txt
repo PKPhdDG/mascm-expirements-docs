@@ -1,0 +1,23 @@
+Race conditions:
+Race condition was reported 0 times.
+============================================================
+Deadlocks:
+Deadlock was reported 0 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+	Order violation detected for pair: calloc, realloc
+		calloc is located in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\word_count\\wordcount_serial.c:92:25
+		realloc is located in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\word_count\\wordcount_serial.c:224:26
+	Detected order violation is linked with 
+		resource: {'temp', 'words'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\word_count\\wordcount_serial.c:62:11
+
+Order violation was reported 1 times.
+============================================================
+Resource usage:
+	Current memory usage is 4.85MB
+	Peak was 6.12MB
+	Time: 2.97s

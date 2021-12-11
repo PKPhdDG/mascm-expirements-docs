@@ -1,0 +1,1045 @@
+Race conditions:
+	Race condition detected in element: (o0,345, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,352, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,359, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,381, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,388, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,425, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,455, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,456, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,457, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,458, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,461, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,468, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,475, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,497, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,504, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,506, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:216:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,516, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:231:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,517, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:232:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,518, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:234:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,528, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:241:10
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,562, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,592, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,593, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,594, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,595, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,598, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,605, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,612, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,634, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,641, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,650, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:254:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,651, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:255:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,652, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:256:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o1,74, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o10,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o10,313, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (r7, o11,44)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:812:8
+
+	Race condition detected in element: (o11,46, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:814:7
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (r7, o11,49)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:818:14
+
+	Race condition detected in element: (r7, o11,56)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:827:27
+
+	Race condition detected in element: (o11,92, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1060:30
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (o11,93, r7)
+	Error can be found in
+		C:/Users/damia/PycharmProjects/phoenix/sample_apps/reverse_index/stddefines.h:52:18
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+
+	Race condition detected in element: (r7, o11,98)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1062:16
+
+	Race condition detected in element: (o11,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o11,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o11,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o11,112)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1074:19
+
+	Race condition detected in element: (r7, o11,116)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1077:11
+
+	Race condition detected in element: (r7, o11,122)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1082:17
+
+	Race condition detected in element: (o11,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o11,136)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1102:16
+
+	Race condition detected in element: (o11,139, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (r7, o12,44)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:812:8
+
+	Race condition detected in element: (o12,46, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:814:7
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (r7, o12,49)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:818:14
+
+	Race condition detected in element: (r7, o12,56)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:827:27
+
+	Race condition detected in element: (o12,92, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1060:30
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (o12,93, r7)
+	Error can be found in
+		C:/Users/damia/PycharmProjects/phoenix/sample_apps/reverse_index/stddefines.h:52:18
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+
+	Race condition detected in element: (r7, o12,98)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1062:16
+
+	Race condition detected in element: (o12,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o12,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o12,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o12,112)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1074:19
+
+	Race condition detected in element: (r7, o12,116)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1077:11
+
+	Race condition detected in element: (r7, o12,122)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1082:17
+
+	Race condition detected in element: (o12,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o12,136)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1102:16
+
+	Race condition detected in element: (o12,139, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o13,74, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o14,74, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o15,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o15,313, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o16,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o16,313, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (r7, o17,44)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:812:8
+
+	Race condition detected in element: (o17,46, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:814:7
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (r7, o17,49)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:818:14
+
+	Race condition detected in element: (r7, o17,56)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:827:27
+
+	Race condition detected in element: (o17,92, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1060:30
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (o17,93, r7)
+	Error can be found in
+		C:/Users/damia/PycharmProjects/phoenix/sample_apps/reverse_index/stddefines.h:52:18
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+
+	Race condition detected in element: (r7, o17,98)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1062:16
+
+	Race condition detected in element: (o17,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o17,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o17,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o17,112)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1074:19
+
+	Race condition detected in element: (r7, o17,116)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1077:11
+
+	Race condition detected in element: (r7, o17,122)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1082:17
+
+	Race condition detected in element: (o17,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o17,136)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1102:16
+
+	Race condition detected in element: (o17,139, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (r7, o18,44)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:812:8
+
+	Race condition detected in element: (o18,46, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:814:7
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (r7, o18,49)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:818:14
+
+	Race condition detected in element: (r7, o18,56)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:827:27
+
+	Race condition detected in element: (o18,92, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1060:30
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (o18,93, r7)
+	Error can be found in
+		C:/Users/damia/PycharmProjects/phoenix/sample_apps/reverse_index/stddefines.h:52:18
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+
+	Race condition detected in element: (r7, o18,98)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1062:16
+
+	Race condition detected in element: (o18,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o18,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o18,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o18,112)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1074:19
+
+	Race condition detected in element: (r7, o18,116)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1077:11
+
+	Race condition detected in element: (r7, o18,122)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1082:17
+
+	Race condition detected in element: (o18,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o18,136)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1102:16
+
+	Race condition detected in element: (o18,139, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o2,74, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o3,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o3,313, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o4,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o4,313, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (r7, o5,44)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:812:8
+
+	Race condition detected in element: (o5,46, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:814:7
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (r7, o5,49)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:818:14
+
+	Race condition detected in element: (r7, o5,56)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:827:27
+
+	Race condition detected in element: (o5,92, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1060:30
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (o5,93, r7)
+	Error can be found in
+		C:/Users/damia/PycharmProjects/phoenix/sample_apps/reverse_index/stddefines.h:52:18
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+
+	Race condition detected in element: (r7, o5,98)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1062:16
+
+	Race condition detected in element: (o5,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o5,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o5,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o5,112)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1074:19
+
+	Race condition detected in element: (r7, o5,116)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1077:11
+
+	Race condition detected in element: (r7, o5,122)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1082:17
+
+	Race condition detected in element: (o5,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o5,136)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1102:16
+
+	Race condition detected in element: (o5,139, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (r7, o6,44)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:812:8
+
+	Race condition detected in element: (o6,46, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:814:7
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (r7, o6,49)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:818:14
+
+	Race condition detected in element: (r7, o6,56)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:827:27
+
+	Race condition detected in element: (o6,92, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1060:30
+	Detected race condition is linked with
+		resource: {'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-seq.c:84:5
+
+	Race condition detected in element: (o6,93, r7)
+	Error can be found in
+		C:/Users/damia/PycharmProjects/phoenix/sample_apps/reverse_index/stddefines.h:52:18
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+
+	Race condition detected in element: (r7, o6,98)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1062:16
+
+	Race condition detected in element: (o6,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o6,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o6,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o6,112)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1074:19
+
+	Race condition detected in element: (r7, o6,116)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1077:11
+
+	Race condition detected in element: (r7, o6,122)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1082:17
+
+	Race condition detected in element: (o6,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r7, o6,136)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\reverseindex-pthread.c:98:5
+	Detected race condition is linked with
+		resource: {'num', 'length'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:1102:16
+
+	Race condition detected in element: (o6,139, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o7,74, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o8,74, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o9,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o9,313, r18)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\reverse_index\\MapReduceScheduler.c:387:25
+
+Race condition was reported 147 times.
+============================================================
+Deadlocks:
+Deadlock was reported 0 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+Order violation was reported 0 times.
+============================================================
+Resource usage:
+	Current memory usage is 9.68MB
+	Peak was 20.17MB
+	Time: 376.84s

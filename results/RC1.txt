@@ -1,0 +1,30 @@
+Race conditions:
+	Race condition detected in element: (o1,4, r1)
+	Error can be found in
+		tests/example_c_sources/race_condition1.c:9:11
+	Detected race condition is linked with
+		resource: {'r1'}
+		declared in tests/example_c_sources/race_condition1.c:4:21
+
+	Race condition detected in element: (o2,4, r1)
+	Error can be found in
+		tests/example_c_sources/race_condition1.c:9:11
+	Detected race condition is linked with
+		resource: {'r1'}
+		declared in tests/example_c_sources/race_condition1.c:4:21
+
+Race condition was reported 2 times.
+============================================================
+Deadlocks:
+Deadlock was reported 0 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+Order violation was reported 0 times.
+============================================================
+Resource usage:
+	Current memory usage is 1.40MB
+	Peak was 1.49MB
+	Time: 0.19s

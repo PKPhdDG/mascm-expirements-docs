@@ -1,0 +1,16 @@
+Race conditions:
+Race condition was reported 0 times.
+============================================================
+Deadlocks:
+Deadlock was reported 0 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+Order violation was reported 0 times.
+============================================================
+Resource usage:
+	Current memory usage is 4.22MB
+	Peak was 5.24MB
+	Time: 1.90s

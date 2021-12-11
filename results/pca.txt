@@ -1,0 +1,1612 @@
+Race conditions:
+	Race condition detected in element: (o0,300, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,307, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,314, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,336, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,343, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,380, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,410, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,411, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,412, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,413, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,416, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,423, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,430, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,452, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,459, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,461, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:216:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,471, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:231:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,472, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:232:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,473, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:234:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,483, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:241:10
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,517, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,547, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,548, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,549, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,550, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,553, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,560, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,567, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,589, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,596, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,605, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:254:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,606, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:255:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,607, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:256:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r2, o0,615)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:415:16
+
+	Race condition detected in element: (r3, o0,618)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:44:5
+	Detected race condition is linked with
+		resource: {'cols', 'num_cols'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:421:25
+
+	Race condition detected in element: (o0,620, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:421:4
+	Detected race condition is linked with
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Race condition detected in element: (o0,621, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:422:30
+	Detected race condition is linked with
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Race condition detected in element: (o0,622, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:422:4
+	Detected race condition is linked with
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Race condition detected in element: (o0,623, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:423:4
+	Detected race condition is linked with
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Race condition detected in element: (r2, o0,633)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:437:31
+
+	Race condition detected in element: (r2, o0,634)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:437:31
+
+	Race condition detected in element: (r2, o0,636)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:437:31
+
+	Race condition detected in element: (o0,657, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:267:24
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,658, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:267:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,659, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:268:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,679, r5)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1163:7
+	Detected race condition is linked with
+		resource: {'num_procs', 'a'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:46:5
+
+	Race condition detected in element: (r5, o0,688)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:46:5
+	Detected race condition is linked with
+		resource: {'num_procs', 'a'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1175:24
+
+	Race condition detected in element: (o0,693, r5)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1176:7
+	Detected race condition is linked with
+		resource: {'num_procs', 'a'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:46:5
+
+	Race condition detected in element: (r5, o0,698)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:46:5
+	Detected race condition is linked with
+		resource: {'num_procs', 'a'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:275:12
+
+	Race condition detected in element: (o0,702, r5)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:276:7
+	Detected race condition is linked with
+		resource: {'num_procs', 'a'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:46:5
+
+	Race condition detected in element: (o0,703, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:278:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,704, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:280:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,705, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:281:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,706, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:284:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,707, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:287:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,708, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:290:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,712, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:294:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,713, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:298:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,714, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:301:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,715, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:302:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,716, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:303:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,717, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:305:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,718, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:306:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,719, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:307:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,724, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:313:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,728, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:316:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,729, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:317:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,733, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:321:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,734, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:322:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,737, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:325:35
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,740, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:326:33
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,741, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:328:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,745, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:332:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,747, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:334:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,749, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:336:50
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,753, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:336:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,756, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:341:55
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,760, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:341:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,763, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:348:27
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,767, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:347:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,769, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:353:27
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,773, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:352:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,774, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:356:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,775, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:359:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,776, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:362:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,777, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:365:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,813, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,843, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,844, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,845, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,846, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,849, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,856, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,863, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,885, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,892, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,929, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,959, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,960, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,961, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,962, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,965, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,972, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,979, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1001, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1008, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1010, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:216:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1020, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:231:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1021, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:232:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1022, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:234:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1032, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:241:10
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1066, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:400:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1096, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:438:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,1097, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:439:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,1098, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:440:13
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o0,1099, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:442:13
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:448:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1109, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:452:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1116, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:456:21
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1138, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:486:12
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1145, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:495:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1154, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:254:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1155, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:255:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o0,1156, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:256:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (r2, o0,1168)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:459:11
+
+	Race condition detected in element: (o0,1170, r2)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:462:10
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+
+	Race condition detected in element: (o0,1170, r8)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:462:10
+	Detected race condition is linked with
+		resource: {'num_rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-seq.c:42:5
+
+	Race condition detected in element: (r2, o0,1177)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca-pthread.c:43:5
+	Detected race condition is linked with
+		resource: {'num_rows', 'rows'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:470:16
+
+	Race condition detected in element: (o0,1179, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:473:7
+	Detected race condition is linked with
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Race condition detected in element: (o0,1181, r11)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:475:4
+	Detected race condition is linked with
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Race condition detected in element: (o1,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o10,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o10,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o11,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o11,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o11,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o11,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o11,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o12,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o12,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o12,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o12,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o12,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o13,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o14,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o15,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o15,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o16,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o16,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o17,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o17,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o17,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o17,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o17,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o18,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o18,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o18,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o18,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o18,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o19,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o2,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o20,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o21,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o21,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o22,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o22,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o23,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o23,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o23,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o23,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o23,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o24,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o24,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o24,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o24,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o24,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o25,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o26,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o27,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o27,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o28,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o28,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o29,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o29,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o29,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o29,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o29,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o3,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o3,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o30,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o30,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o30,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o30,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o30,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o31,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o32,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o33,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o33,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o34,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o34,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o35,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o35,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o35,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o35,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o35,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o36,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o36,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o36,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o36,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o36,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o4,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o4,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o5,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o5,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o5,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o5,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o5,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o6,101, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1067:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o6,102, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1068:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o6,108, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1069:4
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o6,132, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:1097:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o6,139, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:832:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o7,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o8,74, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:589:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+	Race condition detected in element: (o9,310, r1)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:759:7
+	Detected race condition is linked with
+		resource: {'g_state'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:144:3
+
+	Race condition detected in element: (o9,313, r15)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:764:4
+	Detected race condition is linked with
+		resource: {'th_arg', 'curr_th_arg', 'args'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\MapReduceScheduler.c:387:25
+
+Race condition was reported 226 times.
+============================================================
+Deadlocks:
+Deadlock was reported 0 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+	Order violation detected for pair: malloc, free
+		malloc is located in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:373:30
+		free is located in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:473:7
+	Detected order violation is linked with 
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+	Order violation detected for pair: malloc, free
+		malloc is located in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:376:35
+		free is located in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:473:7
+	Detected order violation is linked with 
+		resource: {'pca_data'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\..\\phoenix\\sample_apps\\pca\\pca.c:69:12
+
+Order violation was reported 2 times.
+============================================================
+Resource usage:
+	Current memory usage is 15.78MB
+	Peak was 30.87MB
+	Time: 1371.74s
