@@ -1,0 +1,70 @@
+Race conditions:
+Race condition was reported 0 times.
+============================================================
+Deadlocks:
+	Deadlock detected involving incorrect type of lock in recursion.
+		Deadlock cause: Incorrect type of mutex
+	Return operation in tests/example_c_sources/atomicity_violation1.c:10:25 returning to tests/example_c_sources/atomicity_violation1.c:10:5
+	Cause re-lock of m by operation in tests/example_c_sources/atomicity_violation1.c:12:9
+		Involved mutex has type PTHREAD_MUTEX_DEFAULT
+
+	Deadlock detected involving incorrect type of lock in recursion.
+		Deadlock cause: Incorrect type of mutex
+	Return operation in tests/example_c_sources/atomicity_violation1.c:10:25 returning to tests/example_c_sources/atomicity_violation1.c:10:5
+	Cause re-lock of m by operation in tests/example_c_sources/atomicity_violation1.c:16:9
+		Involved mutex has type PTHREAD_MUTEX_DEFAULT
+
+	Deadlock detected involving incorrect type of lock in recursion.
+		Deadlock cause: Incorrect type of mutex
+	Return operation in tests/example_c_sources/atomicity_violation1.c:10:25 returning to tests/example_c_sources/atomicity_violation1.c:10:5
+	Cause re-lock of m by operation in tests/example_c_sources/atomicity_violation1.c:12:9
+		Involved mutex has type PTHREAD_MUTEX_DEFAULT
+
+	Deadlock detected involving incorrect type of lock in recursion.
+		Deadlock cause: Incorrect type of mutex
+	Return operation in tests/example_c_sources/atomicity_violation1.c:10:25 returning to tests/example_c_sources/atomicity_violation1.c:10:5
+	Cause re-lock of m by operation in tests/example_c_sources/atomicity_violation1.c:16:9
+		Involved mutex has type PTHREAD_MUTEX_DEFAULT
+
+Deadlock was reported 4 times.
+============================================================
+Atomicity violations:
+	Atomicity violation detect for pair: ++, printf
+		++ is located in: tests/example_c_sources/atomicity_violation1.c:13:11
+		printf is located in: tests/example_c_sources/atomicity_violation1.c:17:9
+		Violation is cause by: ++
+		Violating operation is located in: tests/example_c_sources/atomicity_violation1.c:13:11
+		Violation is cause by: printf
+		Violating operation is located in: tests/example_c_sources/atomicity_violation1.c:17:9
+
+	Atomicity violation detect for pair: ++, printf
+		++ is located in: tests/example_c_sources/atomicity_violation1.c:13:11
+		printf is located in: tests/example_c_sources/atomicity_violation1.c:17:9
+		Violation is cause by: ++
+		Violating operation is located in: tests/example_c_sources/atomicity_violation1.c:13:11
+		Violation is cause by: printf
+		Violating operation is located in: tests/example_c_sources/atomicity_violation1.c:17:9
+
+Atomicity violation was reported 2 times.
+============================================================
+Order violations:
+	Order violation detected for pair: ++, printf
+		++ is located in tests/example_c_sources/atomicity_violation1.c:13:11
+		printf is located in tests/example_c_sources/atomicity_violation1.c:17:9
+	Detected order violation is linked with 
+		resource: {'r1'}
+		declared in tests/example_c_sources/atomicity_violation1.c:5:14
+
+	Order violation detected for pair: ++, printf
+		++ is located in tests/example_c_sources/atomicity_violation1.c:13:11
+		printf is located in tests/example_c_sources/atomicity_violation1.c:17:9
+	Detected order violation is linked with 
+		resource: {'r1'}
+		declared in tests/example_c_sources/atomicity_violation1.c:5:14
+
+Order violation was reported 2 times.
+============================================================
+Resource usage:
+	Current memory usage is 1.48MB
+	Peak was 1.63MB
+	Time: 0.23s
