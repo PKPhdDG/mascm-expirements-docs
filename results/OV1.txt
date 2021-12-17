@@ -1,0 +1,23 @@
+Race conditions:
+Race condition was reported 0 times.
+============================================================
+Deadlocks:
+Deadlock was reported 0 times.
+============================================================
+Atomicity violations:
+Atomicity violation was reported 0 times.
+============================================================
+Order violations:
+	Order violation detected for pair: malloc, ++
+		malloc is located in tests/example_c_sources/order_violation1.c:10:22
+		++ is located in tests/example_c_sources/order_violation1.c:22:12
+	Detected order violation is linked with 
+		resource: {'account', 'args'}
+		declared in tests/example_c_sources/order_violation1.c:30:9
+
+Order violation was reported 1 times.
+============================================================
+Resource usage:
+	Current memory usage is 1.49MB
+	Peak was 1.68MB
+	Time: 0.23s
