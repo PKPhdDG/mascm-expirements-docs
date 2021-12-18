@@ -258,11 +258,11 @@ Race conditions:
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o1,8, r76)
+	Race condition detected in element: (o1,8, r77)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:248:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:251:2
 	Detected race condition is linked with
-		resource: {'args', 'recv_args', 'arg'}
+		resource: {'args', 'arg', 'recv_args'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\smptcp.c:55:13
 
 	Race condition detected in element: (r8, o1,19)
@@ -270,286 +270,293 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:55:9
 	Detected race condition is linked with
 		resource: {'transmission_end_sig'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:261:8
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:264:8
 
-	Race condition detected in element: (o1,22, r5)
+	Race condition detected in element: (o1,20, r26)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:266:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:266:8
+	Detected race condition is linked with
+		resource: {'counter'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:3:14
+
+	Race condition detected in element: (o1,23, r5)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:270:3
 	Detected race condition is linked with
 		resource: {'sock_hndls'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:52:9
 
-	Race condition detected in element: (r17, o1,30)
+	Race condition detected in element: (r17, o1,31)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:280:44
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:284:44
 
-	Race condition detected in element: (o1,33, r17)
+	Race condition detected in element: (o1,34, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:280:39
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:284:39
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (o1,38, r13)
+	Race condition detected in element: (o1,39, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:280:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:284:4
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o1,40, r13)
+	Race condition detected in element: (o1,41, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:281:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:285:4
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o1,41, r16)
+	Race condition detected in element: (o1,42, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:290:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:294:4
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (o1,42, r10)
+	Race condition detected in element: (o1,43, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:291:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:295:4
 	Detected race condition is linked with
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o1,43, r34)
+	Race condition detected in element: (o1,44, r35)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:292:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:296:4
 	Detected race condition is linked with
 		resource: {'total_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
 
-	Race condition detected in element: (o1,119, r8)
+	Race condition detected in element: (o1,120, r8)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:320:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:324:4
 	Detected race condition is linked with
 		resource: {'transmission_end_sig'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:55:9
 
-	Race condition detected in element: (o1,123, r25)
+	Race condition detected in element: (o1,124, r25)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:327:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:331:3
 	Detected race condition is linked with
 		resource: {'prev_ack_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:75:9
 
-	Race condition detected in element: (o1,124, r24)
+	Race condition detected in element: (o1,125, r24)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:328:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:332:3
 	Detected race condition is linked with
 		resource: {'this_ack_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:74:9
 
-	Race condition detected in element: (o1,125, r17)
+	Race condition detected in element: (o1,126, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:329:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:333:3
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (r17, o1,126)
+	Race condition detected in element: (r17, o1,127)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:330:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:334:6
 
-	Race condition detected in element: (o1,128, r17)
+	Race condition detected in element: (o1,129, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:332:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:336:4
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (r24, o1,129)
+	Race condition detected in element: (r24, o1,130)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:74:9
 	Detected race condition is linked with
 		resource: {'this_ack_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:336:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:340:6
 
-	Race condition detected in element: (r25, o1,129)
+	Race condition detected in element: (r25, o1,130)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:75:9
 	Detected race condition is linked with
 		resource: {'prev_ack_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:336:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:340:6
 
-	Race condition detected in element: (r22, o1,131)
+	Race condition detected in element: (r22, o1,132)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:339:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:343:7
 
-	Race condition detected in element: (r23, o1,131)
+	Race condition detected in element: (r23, o1,132)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:339:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:343:7
 
-	Race condition detected in element: (r17, o1,133)
+	Race condition detected in element: (r17, o1,134)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:342:44
-
-	Race condition detected in element: (o1,140, r13)
-	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:342:5
-	Detected race condition is linked with
-		resource: {'channel_wnd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:346:44
 
 	Race condition detected in element: (o1,141, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:343:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:346:5
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o1,142, r22)
+	Race condition detected in element: (o1,142, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:344:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:347:5
+	Detected race condition is linked with
+		resource: {'channel_wnd'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
+
+	Race condition detected in element: (o1,143, r22)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:348:5
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 
-	Race condition detected in element: (o1,143, r21)
+	Race condition detected in element: (o1,144, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:345:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:349:5
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
-	Race condition detected in element: (o1,144, r20)
+	Race condition detected in element: (o1,145, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:347:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:351:4
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o1,145, r14)
+	Race condition detected in element: (o1,146, r14)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:348:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:352:4
 	Detected race condition is linked with
 		resource: {'max_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:64:9
 
-	Race condition detected in element: (r22, o1,147)
+	Race condition detected in element: (r22, o1,148)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:354:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:358:7
 
-	Race condition detected in element: (o1,149, r21)
+	Race condition detected in element: (o1,150, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:356:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:360:5
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
-	Race condition detected in element: (r17, o1,150)
+	Race condition detected in element: (r17, o1,151)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:357:23
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:361:23
 
-	Race condition detected in element: (o1,151, r18)
+	Race condition detected in element: (o1,152, r18)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:357:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:361:5
 	Detected race condition is linked with
 		resource: {'old_flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:68:9
 
-	Race condition detected in element: (o1,152, r17)
+	Race condition detected in element: (o1,153, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:358:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:362:5
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (o1,153, r10)
+	Race condition detected in element: (o1,154, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:359:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:363:5
 	Detected race condition is linked with
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o1,154, r34)
+	Race condition detected in element: (o1,155, r35)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:360:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:364:5
 	Detected race condition is linked with
 		resource: {'total_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
 
-	Race condition detected in element: (o1,155, r22)
+	Race condition detected in element: (o1,156, r22)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:362:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:366:4
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 
-	Race condition detected in element: (r22, o1,156)
+	Race condition detected in element: (r22, o1,157)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:365:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:369:7
 
-	Race condition detected in element: (r23, o1,156)
+	Race condition detected in element: (r23, o1,157)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:365:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:369:7
 
-	Race condition detected in element: (o1,158, r16)
+	Race condition detected in element: (o1,159, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:367:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:371:5
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (r18, o1,159)
+	Race condition detected in element: (r18, o1,160)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:68:9
 	Detected race condition is linked with
 		resource: {'old_flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:371:23
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:375:23
 
-	Race condition detected in element: (r17, o1,161)
+	Race condition detected in element: (r17, o1,162)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:371:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:375:7
 
-	Race condition detected in element: (o1,163, r20)
+	Race condition detected in element: (o1,164, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:373:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:377:5
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o2,8, r76)
+	Race condition detected in element: (o2,8, r77)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:248:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:251:2
 	Detected race condition is linked with
-		resource: {'args', 'recv_args', 'arg'}
+		resource: {'args', 'arg', 'recv_args'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\smptcp.c:55:13
 
 	Race condition detected in element: (r8, o2,19)
@@ -557,286 +564,293 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:55:9
 	Detected race condition is linked with
 		resource: {'transmission_end_sig'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:261:8
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:264:8
 
-	Race condition detected in element: (o2,22, r5)
+	Race condition detected in element: (o2,20, r26)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:266:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:266:8
+	Detected race condition is linked with
+		resource: {'counter'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:3:14
+
+	Race condition detected in element: (o2,23, r5)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:270:3
 	Detected race condition is linked with
 		resource: {'sock_hndls'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:52:9
 
-	Race condition detected in element: (r17, o2,30)
+	Race condition detected in element: (r17, o2,31)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:280:44
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:284:44
 
-	Race condition detected in element: (o2,33, r17)
+	Race condition detected in element: (o2,34, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:280:39
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:284:39
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (o2,38, r13)
+	Race condition detected in element: (o2,39, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:280:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:284:4
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o2,40, r13)
+	Race condition detected in element: (o2,41, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:281:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:285:4
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o2,41, r16)
+	Race condition detected in element: (o2,42, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:290:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:294:4
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (o2,42, r10)
+	Race condition detected in element: (o2,43, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:291:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:295:4
 	Detected race condition is linked with
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o2,43, r34)
+	Race condition detected in element: (o2,44, r35)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:292:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:296:4
 	Detected race condition is linked with
 		resource: {'total_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
 
-	Race condition detected in element: (o2,119, r8)
+	Race condition detected in element: (o2,120, r8)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:320:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:324:4
 	Detected race condition is linked with
 		resource: {'transmission_end_sig'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:55:9
 
-	Race condition detected in element: (o2,123, r25)
+	Race condition detected in element: (o2,124, r25)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:327:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:331:3
 	Detected race condition is linked with
 		resource: {'prev_ack_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:75:9
 
-	Race condition detected in element: (o2,124, r24)
+	Race condition detected in element: (o2,125, r24)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:328:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:332:3
 	Detected race condition is linked with
 		resource: {'this_ack_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:74:9
 
-	Race condition detected in element: (o2,125, r17)
+	Race condition detected in element: (o2,126, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:329:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:333:3
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (r17, o2,126)
+	Race condition detected in element: (r17, o2,127)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:330:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:334:6
 
-	Race condition detected in element: (o2,128, r17)
+	Race condition detected in element: (o2,129, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:332:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:336:4
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (r24, o2,129)
+	Race condition detected in element: (r24, o2,130)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:74:9
 	Detected race condition is linked with
 		resource: {'this_ack_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:336:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:340:6
 
-	Race condition detected in element: (r25, o2,129)
+	Race condition detected in element: (r25, o2,130)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:75:9
 	Detected race condition is linked with
 		resource: {'prev_ack_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:336:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:340:6
 
-	Race condition detected in element: (r22, o2,131)
+	Race condition detected in element: (r22, o2,132)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:339:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:343:7
 
-	Race condition detected in element: (r23, o2,131)
+	Race condition detected in element: (r23, o2,132)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:339:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:343:7
 
-	Race condition detected in element: (r17, o2,133)
+	Race condition detected in element: (r17, o2,134)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:342:44
-
-	Race condition detected in element: (o2,140, r13)
-	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:342:5
-	Detected race condition is linked with
-		resource: {'channel_wnd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:346:44
 
 	Race condition detected in element: (o2,141, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:343:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:346:5
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o2,142, r22)
+	Race condition detected in element: (o2,142, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:344:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:347:5
+	Detected race condition is linked with
+		resource: {'channel_wnd'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
+
+	Race condition detected in element: (o2,143, r22)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:348:5
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 
-	Race condition detected in element: (o2,143, r21)
+	Race condition detected in element: (o2,144, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:345:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:349:5
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
-	Race condition detected in element: (o2,144, r20)
+	Race condition detected in element: (o2,145, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:347:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:351:4
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o2,145, r14)
+	Race condition detected in element: (o2,146, r14)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:348:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:352:4
 	Detected race condition is linked with
 		resource: {'max_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:64:9
 
-	Race condition detected in element: (r22, o2,147)
+	Race condition detected in element: (r22, o2,148)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:354:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:358:7
 
-	Race condition detected in element: (o2,149, r21)
+	Race condition detected in element: (o2,150, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:356:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:360:5
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
-	Race condition detected in element: (r17, o2,150)
+	Race condition detected in element: (r17, o2,151)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:357:23
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:361:23
 
-	Race condition detected in element: (o2,151, r18)
+	Race condition detected in element: (o2,152, r18)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:357:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:361:5
 	Detected race condition is linked with
 		resource: {'old_flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:68:9
 
-	Race condition detected in element: (o2,152, r17)
+	Race condition detected in element: (o2,153, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:358:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:362:5
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (o2,153, r10)
+	Race condition detected in element: (o2,154, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:359:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:363:5
 	Detected race condition is linked with
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o2,154, r34)
+	Race condition detected in element: (o2,155, r35)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:360:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:364:5
 	Detected race condition is linked with
 		resource: {'total_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
 
-	Race condition detected in element: (o2,155, r22)
+	Race condition detected in element: (o2,156, r22)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:362:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:366:4
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 
-	Race condition detected in element: (r22, o2,156)
+	Race condition detected in element: (r22, o2,157)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:365:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:369:7
 
-	Race condition detected in element: (r23, o2,156)
+	Race condition detected in element: (r23, o2,157)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:365:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:369:7
 
-	Race condition detected in element: (o2,158, r16)
+	Race condition detected in element: (o2,159, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:367:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:371:5
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (r18, o2,159)
+	Race condition detected in element: (r18, o2,160)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:68:9
 	Detected race condition is linked with
 		resource: {'old_flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:371:23
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:375:23
 
-	Race condition detected in element: (r17, o2,161)
+	Race condition detected in element: (r17, o2,162)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 	Detected race condition is linked with
 		resource: {'flight_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:371:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:375:7
 
-	Race condition detected in element: (o2,163, r20)
+	Race condition detected in element: (o2,164, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:373:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:377:5
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o3,17, r76)
+	Race condition detected in element: (o3,17, r77)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:27:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:29:2
 	Detected race condition is linked with
-		resource: {'args', 'recv_args', 'arg'}
+		resource: {'args', 'arg', 'recv_args'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\smptcp.c:55:13
 
 	Race condition detected in element: (r6, o3,19)
@@ -844,53 +858,53 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:30:13
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:32:13
 
 	Race condition detected in element: (o3,20, r10)
-	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:32:3
-	Detected race condition is linked with
-		resource: {'channel_stats'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
-
-	Race condition detected in element: (o3,21, r10)
-	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:33:3
-	Detected race condition is linked with
-		resource: {'channel_stats'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
-
-	Race condition detected in element: (o3,22, r10)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:34:3
 	Detected race condition is linked with
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o3,24, r34)
+	Race condition detected in element: (o3,21, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:38:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:35:3
 	Detected race condition is linked with
-		resource: {'total_stats'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
+		resource: {'channel_stats'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o3,25, r34)
+	Race condition detected in element: (o3,22, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:39:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:36:3
 	Detected race condition is linked with
-		resource: {'total_stats'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
+		resource: {'channel_stats'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o3,26, r34)
+	Race condition detected in element: (o3,24, r35)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:40:2
 	Detected race condition is linked with
 		resource: {'total_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
 
-	Race condition detected in element: (o3,27, r36)
+	Race condition detected in element: (o3,25, r35)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:43:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:41:2
+	Detected race condition is linked with
+		resource: {'total_stats'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
+
+	Race condition detected in element: (o3,26, r35)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:42:2
+	Detected race condition is linked with
+		resource: {'total_stats'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
+
+	Race condition detected in element: (o3,27, r37)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:45:2
 	Detected race condition is linked with
 		resource: {'rwnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
@@ -900,18 +914,18 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:45:31
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:47:31
 
 	Race condition detected in element: (r6, o3,29)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:45:15
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:47:15
 
 	Race condition detected in element: (o3,30, r12)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:45:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:47:2
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
@@ -921,11 +935,11 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:47:36
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:49:36
 
 	Race condition detected in element: (o3,32, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:47:29
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:49:29
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
@@ -935,102 +949,102 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:48:13
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:50:13
 
 	Race condition detected in element: (r6, o3,35)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:50:25
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:52:25
 
 	Race condition detected in element: (o3,36, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:50:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:52:3
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
 	Race condition detected in element: (o3,37, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:51:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:53:3
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
 	Race condition detected in element: (o3,39, r14)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:54:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:56:2
 	Detected race condition is linked with
 		resource: {'max_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:64:9
 
 	Race condition detected in element: (o3,40, r15)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:56:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:58:2
 	Detected race condition is linked with
 		resource: {'max_send_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:65:9
 
 	Race condition detected in element: (o3,41, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:58:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:60:2
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
 	Race condition detected in element: (o3,42, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:60:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:62:2
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
 	Race condition detected in element: (o3,43, r18)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:62:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:64:2
 	Detected race condition is linked with
 		resource: {'old_flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:68:9
 
 	Race condition detected in element: (o3,44, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:64:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:66:2
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
 	Race condition detected in element: (o3,45, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:66:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:68:2
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
 	Race condition detected in element: (o3,46, r22)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:68:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:70:2
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 
 	Race condition detected in element: (o3,47, r23)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:70:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:72:2
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 
 	Race condition detected in element: (o3,48, r24)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:72:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:74:2
 	Detected race condition is linked with
 		resource: {'this_ack_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:74:9
 
 	Race condition detected in element: (o3,49, r25)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:74:2
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:76:2
 	Detected race condition is linked with
 		resource: {'prev_ack_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:75:9
@@ -1040,471 +1054,478 @@ Race conditions:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:55:9
 	Detected race condition is linked with
 		resource: {'transmission_end_sig'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:86:8
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:88:8
 
-	Race condition detected in element: (o3,61, r12)
+	Race condition detected in element: (o3,56, r26)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:97:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:90:6
+	Detected race condition is linked with
+		resource: {'counter'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:3:14
+
+	Race condition detected in element: (o3,62, r12)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:100:3
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
 
-	Race condition detected in element: (r6, o3,63)
+	Race condition detected in element: (r6, o3,64)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:98:14
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:101:14
 
-	Race condition detected in element: (o3,64, r12)
+	Race condition detected in element: (o3,65, r12)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:100:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:103:4
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
 
-	Race condition detected in element: (r6, o3,67)
+	Race condition detected in element: (r6, o3,68)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:105:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:108:6
 
-	Race condition detected in element: (r20, o3,70)
+	Race condition detected in element: (r20, o3,71)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:111:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:114:6
 
-	Race condition detected in element: (r6, o3,75)
+	Race condition detected in element: (r6, o3,76)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:53:9
 	Detected race condition is linked with
 		resource: {'num_interfaces'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:115:15
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:118:15
 
-	Race condition detected in element: (r12, o3,84)
+	Race condition detected in element: (r12, o3,85)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:123:12
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:126:12
 
-	Race condition detected in element: (r21, o3,90)
+	Race condition detected in element: (r21, o3,91)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 	Detected race condition is linked with
 		resource: {'system_state'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:131:6
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:134:6
 
-	Race condition detected in element: (o3,94, r21)
+	Race condition detected in element: (o3,95, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:135:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:138:5
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
-	Race condition detected in element: (o3,96, r21)
+	Race condition detected in element: (o3,97, r21)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:139:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:142:5
 	Detected race condition is linked with
 		resource: {'system_state'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:71:9
 
-	Race condition detected in element: (r20, o3,99)
+	Race condition detected in element: (r20, o3,100)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:149:42
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:152:42
 
-	Race condition detected in element: (r12, o3,101)
+	Race condition detected in element: (r12, o3,102)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:149:42
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:152:42
 
-	Race condition detected in element: (r20, o3,102)
+	Race condition detected in element: (r20, o3,103)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:149:81
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:152:81
 
-	Race condition detected in element: (o3,104, r13)
+	Race condition detected in element: (o3,105, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:149:37
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:152:37
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,104, r20)
+	Race condition detected in element: (o3,105, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:149:37
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:152:37
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o3,109, r13)
+	Race condition detected in element: (o3,110, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:149:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:152:5
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,110, r20)
+	Race condition detected in element: (o3,111, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:150:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:153:5
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (r20, o3,113)
+	Race condition detected in element: (r20, o3,114)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:156:8
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:159:8
 
-	Race condition detected in element: (r20, o3,115)
+	Race condition detected in element: (r20, o3,116)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:158:43
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:161:43
 
-	Race condition detected in element: (r12, o3,117)
+	Race condition detected in element: (r12, o3,118)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:158:43
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:161:43
 
-	Race condition detected in element: (r20, o3,118)
+	Race condition detected in element: (r20, o3,119)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:158:82
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:161:82
 
-	Race condition detected in element: (o3,120, r13)
+	Race condition detected in element: (o3,121, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:158:38
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:161:38
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,120, r20)
+	Race condition detected in element: (o3,121, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:158:38
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:161:38
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o3,125, r13)
+	Race condition detected in element: (o3,126, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:158:6
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:161:6
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,126, r20)
+	Race condition detected in element: (o3,127, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:159:6
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:162:6
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (r23, o3,129)
+	Race condition detected in element: (r23, o3,130)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:166:30
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:169:30
 
-	Race condition detected in element: (r22, o3,130)
+	Race condition detected in element: (r22, o3,131)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:166:8
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:169:8
 
-	Race condition detected in element: (o3,132, r13)
+	Race condition detected in element: (o3,133, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:168:37
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:171:37
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,132, r36)
+	Race condition detected in element: (o3,133, r37)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:168:37
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:171:37
 	Detected race condition is linked with
 		resource: {'rwnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
 
-	Race condition detected in element: (r11, o3,133)
+	Race condition detected in element: (r11, o3,134)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
 	Detected race condition is linked with
-		resource: {'b', 'rwnd'}
+		resource: {'rwnd', 'b'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.c:41:5
 
-	Race condition detected in element: (r14, o3,137)
+	Race condition detected in element: (r14, o3,138)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:64:9
 	Detected race condition is linked with
 		resource: {'max_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:168:22
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:171:22
 
-	Race condition detected in element: (o3,138, r16)
+	Race condition detected in element: (o3,139, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:168:6
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:171:6
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (r20, o3,139)
+	Race condition detected in element: (r20, o3,140)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:172:42
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:175:42
 
-	Race condition detected in element: (r12, o3,141)
+	Race condition detected in element: (r12, o3,142)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:62:9
 	Detected race condition is linked with
 		resource: {'cwnd_total'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:172:42
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:175:42
 
-	Race condition detected in element: (r20, o3,142)
+	Race condition detected in element: (r20, o3,143)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:172:81
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:175:81
 
-	Race condition detected in element: (o3,144, r13)
+	Race condition detected in element: (o3,145, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:172:37
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:175:37
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,144, r20)
+	Race condition detected in element: (o3,145, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:172:37
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:175:37
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (r11, o3,145)
+	Race condition detected in element: (r11, o3,146)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
 	Detected race condition is linked with
-		resource: {'b', 'rwnd'}
+		resource: {'rwnd', 'b'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.c:41:5
 
-	Race condition detected in element: (o3,149, r13)
+	Race condition detected in element: (o3,150, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:172:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:175:5
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,150, r20)
+	Race condition detected in element: (o3,151, r20)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:173:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:176:5
 	Detected race condition is linked with
 		resource: {'newly_ackd_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:70:9
 
-	Race condition detected in element: (o3,152, r13)
+	Race condition detected in element: (o3,153, r13)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:179:33
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:182:33
 	Detected race condition is linked with
 		resource: {'channel_wnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:63:11
 
-	Race condition detected in element: (o3,152, r36)
+	Race condition detected in element: (o3,153, r37)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:179:33
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:182:33
 	Detected race condition is linked with
 		resource: {'rwnd'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
 
-	Race condition detected in element: (r11, o3,153)
+	Race condition detected in element: (r11, o3,154)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
 	Detected race condition is linked with
-		resource: {'b', 'rwnd'}
+		resource: {'rwnd', 'b'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.c:41:5
 
-	Race condition detected in element: (r14, o3,157)
+	Race condition detected in element: (r14, o3,158)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:64:9
 	Detected race condition is linked with
 		resource: {'max_ackd_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:179:18
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:182:18
 
-	Race condition detected in element: (o3,158, r15)
+	Race condition detected in element: (o3,159, r15)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:179:3
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:182:3
 	Detected race condition is linked with
 		resource: {'max_send_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:65:9
 
-	Race condition detected in element: (r15, o3,159)
+	Race condition detected in element: (r15, o3,160)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:65:9
 	Detected race condition is linked with
 		resource: {'max_send_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:183:6
-
-	Race condition detected in element: (r16, o3,159)
-	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
-	Detected race condition is linked with
-		resource: {'last_sent_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:183:6
-
-	Race condition detected in element: (r7, o3,160)
-	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:54:9
-	Detected race condition is linked with
-		resource: {'file_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:183:38
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:186:6
 
 	Race condition detected in element: (r16, o3,160)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:183:38
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:186:6
 
-	Race condition detected in element: (r7, o3,166)
+	Race condition detected in element: (r7, o3,161)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:54:9
 	Detected race condition is linked with
 		resource: {'file_size'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:191:25
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:186:38
 
-	Race condition detected in element: (r16, o3,166)
+	Race condition detected in element: (r16, o3,161)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:191:25
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:186:38
 
-	Race condition detected in element: (o3,168, r7)
+	Race condition detected in element: (r7, o3,167)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:191:16
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:54:9
+	Detected race condition is linked with
+		resource: {'file_size'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:194:25
+
+	Race condition detected in element: (r16, o3,167)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
+	Detected race condition is linked with
+		resource: {'last_sent_num'}
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:194:25
+
+	Race condition detected in element: (o3,169, r7)
+	Error can be found in
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:194:16
 	Detected race condition is linked with
 		resource: {'file_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:54:9
 
-	Race condition detected in element: (o3,168, r16)
+	Race condition detected in element: (o3,169, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:191:16
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:194:16
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (r11, o3,169)
+	Race condition detected in element: (r11, o3,170)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:61:9
 	Detected race condition is linked with
-		resource: {'b', 'rwnd'}
+		resource: {'rwnd', 'b'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.c:41:5
 
-	Race condition detected in element: (r4, o3,175)
+	Race condition detected in element: (r4, o3,176)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:51:6
 	Detected race condition is linked with
 		resource: {'file_buf'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:193:21
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:196:21
 
-	Race condition detected in element: (r16, o3,175)
+	Race condition detected in element: (r16, o3,176)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:193:21
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:196:21
 
-	Race condition detected in element: (o3,177, r4)
+	Race condition detected in element: (o3,178, r4)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:193:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:196:4
 	Detected race condition is linked with
 		resource: {'file_buf'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:51:6
 
-	Race condition detected in element: (o3,177, r16)
+	Race condition detected in element: (o3,178, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:193:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:196:4
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (o3,234, r5)
+	Race condition detected in element: (o3,235, r5)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:198:13
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:201:13
 	Detected race condition is linked with
 		resource: {'sock_hndls'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:52:9
 
-	Race condition detected in element: (o3,244, r10)
+	Race condition detected in element: (o3,245, r10)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:212:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:215:4
 	Detected race condition is linked with
 		resource: {'channel_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:57:14
 
-	Race condition detected in element: (o3,245, r34)
+	Race condition detected in element: (o3,246, r35)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:213:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:216:4
 	Detected race condition is linked with
 		resource: {'total_stats'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:56:14
 
-	Race condition detected in element: (o3,246, r17)
+	Race condition detected in element: (o3,247, r17)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:214:4
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:217:4
 	Detected race condition is linked with
 		resource: {'flight_size'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:67:9
 
-	Race condition detected in element: (r22, o3,247)
+	Race condition detected in element: (r22, o3,248)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:72:9
 	Detected race condition is linked with
 		resource: {'dupd_packets_recvd'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:217:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:220:7
 
-	Race condition detected in element: (r23, o3,247)
+	Race condition detected in element: (r23, o3,248)
 	Error can be found in
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:73:9
 	Detected race condition is linked with
 		resource: {'dupd_packet_limit'}
-		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:217:7
+		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:220:7
 
-	Race condition detected in element: (o3,249, r16)
+	Race condition detected in element: (o3,250, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:219:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:222:5
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-	Race condition detected in element: (o3,251, r16)
+	Race condition detected in element: (o3,252, r16)
 	Error can be found in
-		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:223:5
+		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:226:5
 	Detected race condition is linked with
 		resource: {'last_sent_num'}
 		declared in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\global.h:66:9
 
-Race condition was reported 215 times.
+Race condition was reported 218 times.
 ============================================================
 Deadlocks:
 	Deadlock detected involving a set of locks: {q7}
@@ -1633,6 +1654,6 @@ Order violations:
 Order violation was reported 0 times.
 ============================================================
 Resource usage:
-	Current memory usage is 6.32MB
-	Peak was 13.87MB
-	Time: 62.63s
+	Current memory usage is 6.34MB
+	Peak was 13.89MB
+	Time: 64.26s

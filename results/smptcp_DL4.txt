@@ -1624,7 +1624,13 @@ Deadlocks:
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\smptcp.c:64:2 using mutex variable transmission_end_l of type PTHREAD_MUTEX_DEFAULT
 		C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\smptcp.c:442:2 using mutex variable transmission_end_l of type PTHREAD_MUTEX_DEFAULT
 
-Deadlock was reported 22 times.
+	Deadlock detected involving incorrect type of lock in recursion.
+		Deadlock cause: Incorrect type of mutex
+	Return operation in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:11:1 returning to C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:8:9
+	Cause re-lock of acc_l by operation in C:\\Users\\damia\\PycharmProjects\\rdao_detector\\csources\\smptcp\\channels.c:5:5
+		Involved mutex has type PTHREAD_MUTEX_DEFAULT
+		
+Deadlock was reported 23 times.
 ============================================================
 Atomicity violations:
 Atomicity violation was reported 0 times.
